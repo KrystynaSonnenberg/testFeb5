@@ -960,6 +960,50 @@
       "tooltip": "{{ Percentage of teacher trained, Primary Education }}%", 
       "type": "number"
     }, 
+    "preprimary_gross_enrollment_ratio_female": {
+      "description": "Pre-Primary Gross Enrollment Ratio Female (%)", 
+      "display": "{{ Pre-Primary Gross Enrollment Ratio Female (%) }}%", 
+      "max": 115.45589, 
+      "min": 1.09033, 
+      "name": "Pre-Primary Gross Enrollment Ratio Female (%)", 
+      "precision": 2, 
+      "source_file": "Primary Gross Enrollment Ratio - All.csv", 
+      "tooltip": "tooltip: {{ Pre-Primary Gross Enrollment Ratio Female (%) }}%", 
+      "type": "number"
+    }, 
+    "preprimary_gross_enrollment_ratio_gpi": {
+      "description": "Pre-Primary Gross Enrollment Ratio GPI", 
+      "display": "{{ Pre-Primary Gross Enrollment Ratio GPI }}%", 
+      "max": 1.142300523, 
+      "min": 0.8293680835, 
+      "name": "Pre-Primary Gross Enrollment Ratio GPI", 
+      "precision": 2, 
+      "source_file": "Primary Gross Enrollment Ratio - All.csv", 
+      "tooltip": "tooltip: {{ Pre-Primary Gross Enrollment Ratio GPI }}%", 
+      "type": "number"
+    }, 
+    "preprimary_gross_enrollment_ratio_male": {
+      "description": "Pre-Primary Gross Enrollment Ratio Male (%)", 
+      "display": "{{ Pre-Primary Gross Enrollment Ratio Male (%) }}%", 
+      "max": 112.46256, 
+      "min": 0.99693, 
+      "name": "Pre-Primary Gross Enrollment Ratio Male (%)", 
+      "precision": 2, 
+      "source_file": "Primary Gross Enrollment Ratio - All.csv", 
+      "tooltip": "tooltip: {{ Pre-Primary Gross Enrollment Ratio Male (%) }}%", 
+      "type": "number"
+    }, 
+    "preprimary_gross_enrollment_ratio_total": {
+      "description": "Pre-Primary Gross Enrollment Ratio Total (%)", 
+      "display": "{{ Pre-Primary Gross Enrollment Ratio Total (%) }}%", 
+      "max": 113.92949, 
+      "min": 1.04281, 
+      "name": "Pre-Primary Gross Enrollment Ratio Total (%)", 
+      "precision": 2, 
+      "source_file": "Primary Gross Enrollment Ratio - All.csv", 
+      "tooltip": "tooltip: {{ Pre-Primary Gross Enrollment Ratio Total (%) }}%", 
+      "type": "number"
+    }, 
     "primary_completion_rate_female": {
       "choropleth": [
         {
@@ -1106,154 +1150,6 @@
       "precision": 2, 
       "source_file": "Primary Completion Rate - All.csv", 
       "tooltip": "{{ Primary Completion Rate Total (%) }}%", 
-      "type": "number"
-    }, 
-    "primary_gross_enrollment_ratio_female": {
-      "choropleth": [
-        {
-          "color": "#f9a51a", 
-          "label": "< 15", 
-          "range": [
-            1.09033, 
-            15
-          ]
-        }, 
-        {
-          "color": "#F47C30", 
-          "label": "15 - 25", 
-          "range": [
-            15, 
-            25
-          ]
-        }, 
-        {
-          "color": "#EF4854", 
-          "label": "\u2265 25", 
-          "range": [
-            25, 
-            115.45589
-          ]
-        }
-      ], 
-      "description": "Total number of children enrolled in early childhood care and education programs, regardless of age, expressed as a percentage of the population in the relevant official age group.", 
-      "display": "{{ Primary Gross Enrollment Ratio Female (%) }}%", 
-      "max": 115.45589, 
-      "min": 1.09033, 
-      "name": "Primary Gross Enrollment Ratio Female (%)", 
-      "precision": 2, 
-      "source_file": "Primary Gross Enrollment Ratio - All.csv", 
-      "tooltip": "{{ Primary Gross Enrollment Ratio Female (%) }}%", 
-      "type": "number"
-    }, 
-    "primary_gross_enrollment_ratio_gpi": {
-      "choropleth": [
-        {
-          "color": "#f9a51a", 
-          "label": "< 0.97", 
-          "range": [
-            0.8293680835, 
-            0.97
-          ]
-        }, 
-        {
-          "color": "#F47C30", 
-          "label": "0.97 - 1.03", 
-          "range": [
-            0.97, 
-            1.03
-          ]
-        }, 
-        {
-          "color": "#EF4854", 
-          "label": "\u2265 1.03", 
-          "range": [
-            1.03, 
-            1.142300523
-          ]
-        }
-      ], 
-      "description": "Total number of children enrolled in early childhood care and education programs, regardless of age, expressed as a percentage of the population in the relevant official age group.", 
-      "display": "{{ Primary Gross Enrollment Ratio GPI }}%", 
-      "max": 1.142300523, 
-      "min": 0.8293680835, 
-      "name": "Primary Gross Enrollment Ratio GPI", 
-      "precision": 2, 
-      "source_file": "Primary Gross Enrollment Ratio - All.csv", 
-      "tooltip": "{{ Primary Gross Enrollment Ratio GPI }}%", 
-      "type": "number"
-    }, 
-    "primary_gross_enrollment_ratio_male": {
-      "choropleth": [
-        {
-          "color": "#f9a51a", 
-          "label": "< 15", 
-          "range": [
-            0.99693, 
-            15
-          ]
-        }, 
-        {
-          "color": "#F47C30", 
-          "label": "15 - 25", 
-          "range": [
-            15, 
-            25
-          ]
-        }, 
-        {
-          "color": "#EF4854", 
-          "label": "\u2265 25", 
-          "range": [
-            25, 
-            112.46256
-          ]
-        }
-      ], 
-      "description": "Total number of children enrolled in early childhood care and education programs, regardless of age, expressed as a percentage of the population in the relevant official age group.", 
-      "display": "{{ Primary Gross Enrollment Ratio Male (%) }}%", 
-      "max": 112.46256, 
-      "min": 0.99693, 
-      "name": "Primary Gross Enrollment Ratio Male (%)", 
-      "precision": 2, 
-      "source_file": "Primary Gross Enrollment Ratio - All.csv", 
-      "tooltip": "{{ Primary Gross Enrollment Ratio Male (%) }}%", 
-      "type": "number"
-    }, 
-    "primary_gross_enrollment_ratio_total": {
-      "choropleth": [
-        {
-          "color": "#f9a51a", 
-          "label": "< 15", 
-          "range": [
-            1.04281, 
-            15
-          ]
-        }, 
-        {
-          "color": "#F47C30", 
-          "label": "15 - 25", 
-          "range": [
-            15, 
-            25
-          ]
-        }, 
-        {
-          "color": "#EF4854", 
-          "label": "\u2265 25", 
-          "range": [
-            25, 
-            113.92949
-          ]
-        }
-      ], 
-      "description": "Total number of children enrolled in early childhood care and education programs, regardless of age, expressed as a percentage of the population in the relevant official age group.", 
-      "display": "{{ Primary Gross Enrollment Ratio Total (%) }}%", 
-      "max": 113.92949, 
-      "min": 1.04281, 
-      "name": "Primary Gross Enrollment Ratio Total (%)", 
-      "precision": 2, 
-      "source_file": "Primary Gross Enrollment Ratio - All.csv", 
-      "tooltip": "{{ Primary Gross Enrollment Ratio Total (%) }}%", 
       "type": "number"
     }, 
     "primary_out_of_school_children_rate_female": {
@@ -1730,7 +1626,11 @@
           "% of missing data, service delivery (%)", 
           "% of missing data, domestic financing (%)"
         ]
-      }
+      }, 
+      "Pre-Primary Gross Enrollment Ratio Female (%)", 
+      "Pre-Primary Gross Enrollment Ratio GPI", 
+      "Pre-Primary Gross Enrollment Ratio Male (%)", 
+      "Pre-Primary Gross Enrollment Ratio Total (%)"
     ]
   }
 }
