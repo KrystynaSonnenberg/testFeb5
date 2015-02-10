@@ -334,6 +334,17 @@
       "tooltip": "${{ AID committed for total Education- Current prices (USD millions) }}M {{ AID disbursed for total Education as % of GDP }}%", 
       "type": "number"
     }, 
+    "conducted_a_jsr": {
+      "description": "Conducted a JSR", 
+      "display": "{{ Conducted a JSR }}%", 
+      "max": 28, 
+      "min": 1, 
+      "name": "Conducted a JSR", 
+      "precision": 2, 
+      "source_file": "Joint Sector Reviews Conducted - updated Feb 2015.csv", 
+      "tooltip": "tooltip: {{ Conducted a JSR }}%", 
+      "type": "number"
+    }, 
     "educational_expenditure_in_primary_as__of_total_educational_expenditure": {
       "choropleth": [
         {
@@ -1636,7 +1647,8 @@
       "Pre-Primary Gross Enrollment Ratio Female (%)", 
       "Pre-Primary Gross Enrollment Ratio GPI", 
       "Pre-Primary Gross Enrollment Ratio Male (%)", 
-      "Pre-Primary Gross Enrollment Ratio Total (%)"
+      "Pre-Primary Gross Enrollment Ratio Total (%)", 
+      "Conducted a JSR"
     ]
   }
 }
