@@ -334,17 +334,6 @@
       "tooltip": "${{ AID committed for total Education- Current prices (USD millions) }}M {{ AID disbursed for total Education as % of GDP }}%", 
       "type": "number"
     }, 
-    "conducted_a_jsr": {
-      "description": "Conducted a JSR", 
-      "display": "{{ Conducted a JSR }}%", 
-      "max": 28, 
-      "min": 1, 
-      "name": "Conducted a JSR", 
-      "precision": 2, 
-      "source_file": "Joint Sector Reviews Conducted - updated Feb 2015.csv", 
-      "tooltip": "tooltip: {{ Conducted a JSR }}%", 
-      "type": "number"
-    }, 
     "educational_expenditure_in_primary_as__of_total_educational_expenditure": {
       "choropleth": [
         {
@@ -497,6 +486,17 @@
       "precision": 2, 
       "source_file": "GPE Funding Disbursement  as % of GDP.csv", 
       "tooltip": "{{ GPE Funding Disbursement  as % of GDP }}%", 
+      "type": "number"
+    }, 
+    "joint_sector_review_conducted": {
+      "description": "Joint Sector Review Conducted", 
+      "display": "{{ Joint Sector Review Conducted }}%", 
+      "max": 28, 
+      "min": 1, 
+      "name": "Joint Sector Review Conducted", 
+      "precision": 2, 
+      "source_file": "Joint Sector Reviews Conducted - updated Feb 2015.csv", 
+      "tooltip": "tooltip: {{ Joint Sector Review Conducted }}%", 
       "type": "number"
     }, 
     "jsr_report_available": {
@@ -1648,7 +1648,8 @@
       "Pre-Primary Gross Enrollment Ratio GPI", 
       "Pre-Primary Gross Enrollment Ratio Male (%)", 
       "Pre-Primary Gross Enrollment Ratio Total (%)", 
-      "Conducted a JSR"
+      "Conducted a JSR", 
+      "Joint Sector Review Conducted"
     ]
   }
 }
